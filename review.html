@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best CSS Books for Beginners</title>
+</head>
+<header>
+    <div align="center">
+        <img src="logo.png" height="100" width="100">
+    <h1>The Review Legend</h1></div>
+    <hr>
+    <nav>
+        <a href="reviewpage.html">Go Back</a>
+        <h1 align="center">Review Form</h1>
+    </nav>
+</header>
+<body bgcolor="LIGHTGREY">
+
+    
+    <table>
+        <form id="myForm" onsubmit="return validateForm()">
+            <tr>
+                <td><label for="First Name">First Name:</label></td>
+                <td><input type="text" name="First Name" required></td>
+            </tr>
+            
+            <tr>
+                <td><label for="Last Name">Last Name:</label></td>
+                <td><input type="text" name="Last Name" required></td>
+            </tr>
+            
+            <tr>
+                <td><label for="E-mail">E-mail:</label></td>
+                <td><input type="text" name="E-mail" required></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="Gender" value="1">Male
+                <input type="radio" name="Gender" value="2">Female</td>
+
+            <tr>
+                <td>
+                    <label for="Books">Choose a Books:</label></td>
+                    <td><select name="Books" id="Books">
+                      <option value="Book1">George Orwell's 1984 on Goodreads</option>
+                      <option value="Book2">Lisa Halliday's Asymmetry</option>
+                      <option value="Book3">The Power of Habit</option>
+                      <option value="Book4">Anissa Gray's The Care and Feeding of Ravenously Hungry Girls</option>
+                      <option value="Book5">The Book of M by Peng Shepherd</option>
+                      <option value="Book6">To Kill a Mockingbird</option>
+                      <option value="Book7">The Great Gatsby</option>
+                      <option value="Book8">The Catcher in the Rye</option>
+                      <option value="Book9">Ulysses</option>
+                      <option value="Book10">The Kite Runner</option>
+                    </select>
+                    <br></td>
+            </tr><br><br>
+
+            <tr class="e">
+                <td><label for="Genre"></label>Genre:</td>
+                <!-- <td colspan="3"> -->
+                <td><select name="Genre" id="genre">
+                    <option value="g1">Fiction</option>
+                    <option value="g2">Fantasy</option>
+                    <option value="g3">Biography</option>
+                    <option value="g4">Autobiography</option>
+                    <option value="g5">History</option>
+                    <option value="g6">Romance</option>
+                    <option value="g7">Pride</option>
+                    <option value="g8">Thriller</option>
+                    <option value="g9">Mystery</option>
+                    <option value="g10">Novel</option>
+                    
+                  </select>
+                </td>
+            </tr>
+            
+            <tr class="f">
+                <td><label for="Review">Review:</label></td>
+                <td><textarea class="form-control" type="text" id="Review" name="Review" rows="5" required></textarea></td>
+            </tr>
+            
+            
+        </form>
+        </table>
+    
+</body>
+<fooer>
+        <p>Rating:</p>      
+        <input type="radio" name="radio_name" value="radio_value">
+        <label for="radio_id">1 Star</label>
+
+        <input type="radio" name="radio_name" value="radio_value">
+        <label for="radio_id">2 Star</label>
+        
+        <input type="radio" name="radio_name" value="radio_value">
+        <label for="radio_id">3 Star</label>
+    
+        <input type="radio" name="radio_name" value="radio_value">
+        <label for="radio_id">4 Star</label>
+
+        <input type="radio" name="radio_name" value="radio_value">
+        <label for="radio_id">5 Star</label>
+        <br><br>
+
+        <tr class="g">
+            <td><input type="Reset" value="Reset"></td>
+            <td><input type="submit" value="Submit"></td>
+        </tr>
+
+        <p align="center">&copy; Contact : abc@gmail.com</p>
+    <br>
+</fooer>
+</html>
